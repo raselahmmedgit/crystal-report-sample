@@ -1,0 +1,3 @@
+ProductId	Number	
+ProductName	String	500	
+ProductPrice	Number	

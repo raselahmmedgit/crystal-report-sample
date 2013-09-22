@@ -1,0 +1,5 @@
+CategoryId	Number	
+CategoryName	String	500	
+ProductId	Number	
+ProductName	String	500	
+ProductPrice	Number	

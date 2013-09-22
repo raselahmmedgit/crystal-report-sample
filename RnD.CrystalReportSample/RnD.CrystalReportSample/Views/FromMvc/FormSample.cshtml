@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Form Sample Report";
+}
+<div id="formSamplePage">
+    <h2>
+        From MVC Controller Action By Form Submit
+    </h2>
+    <br />
+    @using (Html.BeginForm("ShowSimple", "FromMvc"))
+    {
+        <fieldset>
+            <legend>Simple Report:</legend>
+            <input type="submit" class="button" value="Show simple" />
+        </fieldset>
+        
+    }
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+    });
+
+</script>

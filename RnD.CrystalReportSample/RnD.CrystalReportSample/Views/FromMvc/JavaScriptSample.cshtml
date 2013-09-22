@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "JavaScript Sample Report";
+}
+<div id="javaScriptSamplePage">
+    <h2>
+        From MVC Controller Action By Form Submit
+    </h2>
+    <br />
+    <fieldset>
+        <legend>Simple Report:</legend>
+        <input type="button" class="button" value="Show simple in New Window" onclick="SimpleInNewWindow()" />
+    </fieldset>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+    });
+
+    function SimpleInNewWindow() {
+        window.open("../FromMvc/ShowSimple");
+    }
+
+</script>
